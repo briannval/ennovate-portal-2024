@@ -128,7 +128,7 @@ export default function BusinessWorkshops() {
         {isAuthenticated && (
           <>
             <td className="px-6 py-4">
-              <Link href={`/admin/business-workshops?update=${businessWorkshop._id}`} className="font-medium text-ennovate-main hover:underline mr-4">
+              <Link href={`/admin/workshop-content?update=${businessWorkshop._id}`} className="font-medium text-ennovate-main hover:underline mr-4">
                 Edit
               </Link>
             </td>
